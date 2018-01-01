@@ -102,6 +102,10 @@ echo "MAIN: 930-fix-lock-screen"
 sh 930-fix-lock-screen-v*.sh
 
 
+echo "-------------------------------------------------"
+echo "MAIN: 999-Set-Personal-Settings"
+
+sh 999-set-personal-settings-v1*.sh
 
 echo ""
 echo "#################################################"

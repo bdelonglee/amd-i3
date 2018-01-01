@@ -37,10 +37,10 @@ echo ""
 #sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
 # For optional greeter
 sudo pacman -S lightdm --noconfirm --needed
-sudo yaourt -S lightdm-webkit2-greeter lightdm-webkit-theme-litarvan --noconfirm --needed
+yaourt -S lightdm-webkit2-greeter lightdm-webkit-theme-litarvan --noconfirm --needed
 
-sudo sed -i 's/'#greeter-session=example-gtk-gnome'/'greeter-session=lightdm-webkit2-greeter'/g' /etc/lightdm/lightdm.conf
-sudo sed -i 's/'webkit_theme        = antergos'/'webkit_theme        = litarvan'/g' /etc/lightdm/lightdm-webkit2-greeter.conf
+sudo sed -i 's/#greeter-session=example-gtk-gnome/greeter-session=lightdm-webkit2-greeter/g' /etc/lightdm/lightdm.conf
+sudo sed -i 's/webkit_theme        = antergos/webkit_theme        = litarvan/g' /etc/lightdm/lightdm-webkit2-greeter.conf
 
 #
 #Open /etc/lightdm/lightdm.conf"
@@ -72,8 +72,8 @@ echo "###### SYSTEMCTL UPDATE #########################"
 echo "#################################################"
 echo ""
 
-sudo systemctl enable sddm.service -f
-#sudo systemctl enable lightdm.service -f
+#sudo systemctl enable sddm.service -f
+sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
 echo ""

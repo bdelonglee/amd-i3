@@ -18,6 +18,7 @@ echo ""
 echo "Installing fonts"
 
 sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
+sudo pacman -S awesome-terminal-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
 sudo pacman -S noto-fonts --noconfirm --needed
 sudo pacman -S powerline-fonts --noconfirm --needed

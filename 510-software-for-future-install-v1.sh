@@ -10,26 +10,17 @@ set -e
 
 echo ""
 echo "#################################################"
-echo "###### 500 START ################################"
-echo "###### Software AUR Distro Specific #############"
+echo "###### 510 START ################################"
+echo "###### Software For Future Install ##############"
 echo "#################################################"
 echo ""
 
-echo "AUR - DESKTOP SPECIFIC APPLICATIONS "
-
-sh AUR-DS/install-i3blocks-v*.sh
-
-#sh AUR-DS/install-vlc-arc-dark-v*.sh
-
-sh AUR-DS/install-pywal-v*.sh
-
-#sh AUR-DS/install-xfce-slimlock-v*.sh
-
-#sh AUR/install-yad-v*.sh
+#timeshift
+#snapd
 
 echo ""
 echo "#################################################"
-echo "###### Software AUR Distro Specific #############"
-echo "###### 500 END ##################################"
+echo "###### Software For Future Install ##############"
+echo "###### 510 END ##################################"
 echo "#################################################"
 echo ""

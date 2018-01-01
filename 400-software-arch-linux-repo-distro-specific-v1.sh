@@ -50,6 +50,7 @@ sudo pacman -S --noconfirm --needed awesome-terminal-fonts
 sudo pacman -S --noconfirm --needed compton
 sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed feh
+sudo pacman -S --noconfirm --needed gpicview
 # >> A simple program which provides a run program window
 sudo pacman -S --noconfirm --needed gmrun
 sudo pacman -S --noconfirm --needed lxappearance

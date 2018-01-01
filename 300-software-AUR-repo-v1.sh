@@ -30,8 +30,8 @@ sh AUR/install-conky-lua-archers-v*.sh
 # >> Format or write images to usb-sticks (Linux Mint tool)
 sh AUR/install-mintstick-git-v*.sh
 # >> Simple menubar application based on Electron with actual weather information and forecast
-sh AUR/install-temps-v*.sh
-
+#sh AUR/install-temps-v*.sh
+sh AUR/install-xnviewmp-v*.sh
 
 echo "-------------------------------"
 echo "Installing category Development"
@@ -75,6 +75,7 @@ sh AUR/install-arc-gtk-theme-git-v*.sh
 #sh AUR/install-conky-aureola-v*.sh
 # >> Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 sh AUR/install-downgrade-v*.sh
+sh AUR/install-gtop-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
 sh AUR/install-pamac-aur-v*.sh
