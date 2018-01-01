@@ -18,7 +18,17 @@ echo ""
 echo "Changing Shell to ZSH"
 sudo chsh ben -s /bin/zsh
 
+echo "Setting Lightdm-webkit2 Wallpaper"
+sudo mv /usr/share/lightdm-webkit/themes/litarvan/images/background.jpg /usr/share/lightdm-webkit/themes/litarvan/images/background_backup.jpg
 
+sudo cp Personal/wallpapers/selection_001/aerial_cloud_blue_cyan_001.jpg /usr/share/lightdm-webkit/themes/litarvan/images/background.jpg
+
+echo "Setting Slim Lock Screen Theme"
+sudo cp -r Personal/themes/slim/perso_aerial-water-dark-blue-001 /usr/share/slim/themes/
+
+sudo mv /etc/slim.conf /etc/slim.conf_bkp
+
+sudo cp Personal/themes/slim/slim.conf /etc/slim.conf
 
 echo ""
 echo "#################################################"

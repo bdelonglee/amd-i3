@@ -1,0 +1,19 @@
+# Globals
+h    = cd ~
+d    = cd ~/Documents
+D    = cd ~/Downloads
+
+# Datas
+gda  = cd ~/Datas
+gdae = cd ~/Datas/env
+gdam = cd ~/Datas/misc_tools
+gdar = cd ~/Datas/repositories
+gdas = cd ~/Datas/shows
+gdat = cd ~/technical_test
+
+# Documents
+gdo  = cd ~/Documents
+gdoi = cd ~/Documents/images
+gdos = cd ~/Documents/images/screenshots
+gdw  = cd ~/Downloads
+
