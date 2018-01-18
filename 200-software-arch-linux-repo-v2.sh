@@ -175,10 +175,13 @@ sudo pacman -S --noconfirm --needed tumbler
 sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 # >>  Unclutter hides your X mouse cursor when you do not need it
-sudo pacman -S --noconfirm --needed unclutter
+# >>  if use Unclutter-xfixes-git >>> yaourt install
+#sudo pacman -S --noconfirm --needed unclutter
 sudo pacman -S --noconfirm --needed rxvt-unicode
 # >>  Generate et conf Documents, Download, Pictures etc...
 sudo pacman -S --noconfirm --needed xdg-user-dirs
+# >>  Utility for modifying keymaps and button mappings
+sudo pacman -S --noconfirm --needed xorg-xmodmap
 #sudo pacman -S --noconfirm --needed
 
 

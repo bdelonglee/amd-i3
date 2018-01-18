@@ -87,6 +87,8 @@ sh AUR/install-screenkey-v*.sh
 sh AUR/install-surfn-icons-git-v*.sh
 sh AUR/install-ttf-font-awesome-v*.sh
 sh AUR/install-ttf-mac-fonts-v*.sh
+# if not use unclutter
+sh AUR/install-unclutter-xfixes-git-v*.sh
 sh AUR/install-virtualbox-for-linux-kernel-v*.sh
 sh AUR/install-xcursor-breeze-v*.sh
 

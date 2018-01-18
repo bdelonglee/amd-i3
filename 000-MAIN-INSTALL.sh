@@ -56,6 +56,11 @@ echo "MAIN: 200-software-arch-linux-repo"
 sh 200-software-arch-linux-repo-v*.sh
 
 echo "-------------------------------------------------"
+echo "MAIN: 210-set-xdg-user-dirs"
+
+sh 210-set-xdg-user-dirs-v1.sh
+
+echo "-------------------------------------------------"
 echo "MAIN: 300-software-AUR-repo"
 
 sh 300-software-AUR-repo-v*.sh
