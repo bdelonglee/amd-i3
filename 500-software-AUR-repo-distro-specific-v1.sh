@@ -21,6 +21,8 @@ sh AUR-DS/install-i3blocks-v*.sh
 
 #sh AUR-DS/install-vlc-arc-dark-v*.sh
 
+sh AUR-DS/install-polybar-v*.sh
+
 sh AUR-DS/install-pywal-v*.sh
 
 #sh AUR-DS/install-xfce-slimlock-v*.sh
