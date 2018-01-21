@@ -180,6 +180,10 @@ sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed rxvt-unicode
 # >>  Generate et conf Documents, Download, Pictures etc...
 sudo pacman -S --noconfirm --needed xdg-user-dirs
+# >>  Utility for performing actions on windows in X
+sudo pacman -S --noconfirm --needed xdo
+# >>  Command-line X11 automation tool
+sudo pacman -S --noconfirm --needed xdotool
 # >>  Utility for modifying keymaps and button mappings
 sudo pacman -S --noconfirm --needed xorg-xmodmap
 #sudo pacman -S --noconfirm --needed
