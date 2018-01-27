@@ -75,6 +75,8 @@ sh AUR/install-arc-gtk-theme-git-v*.sh
 #sh AUR/install-conky-aureola-v*.sh
 # >> Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 sh AUR/install-downgrade-v*.sh
+sh AUR/install-fasd-v*.sh
+sh AUR/install-greenclip-v*.sh
 sh AUR/install-gtop-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh

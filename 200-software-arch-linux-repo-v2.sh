@@ -150,6 +150,8 @@ sudo pacman -S --noconfirm --needed noto-fonts
 sudo pacman -S --noconfirm --needed numlockx
 # >>  exchange between privileged and non-privileged process
 sudo pacman -S --noconfirm --needed polkit-gnome
+# >> ranger file browser
+sudo pacman -S --noconfirm --needed ranger
 # >>  lib for scanners
 #sudo pacman -S --noconfirm --needed sane
 # >>  old neofetch
@@ -173,6 +175,8 @@ sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler
 # >>  lightweight (command line) network traffic monitor
 sudo pacman -S --noconfirm --needed vnstat
+# >> image preview for ranger
+sudo pacman -S --noconfirm --needed w3m
 sudo pacman -S --noconfirm --needed wget
 # >>  Unclutter hides your X mouse cursor when you do not need it
 # >>  if use Unclutter-xfixes-git >>> yaourt install
