@@ -25,7 +25,7 @@ echo ""
 echo "-------------------------------"
 echo "Installing category Accessories"
 
-sh AUR/install-conky-lua-archers-v*.sh
+#sh AUR/install-conky-lua-archers-v*.sh
 #sh AUR/install-cool-retro-term-v*.sh
 # >> Format or write images to usb-sticks (Linux Mint tool)
 sh AUR/install-mintstick-git-v*.sh
@@ -53,7 +53,7 @@ echo "Installing category Internet"
 sh AUR/install-dropbox-v*.sh
 # >> An unofficial Google Drive client that runs on Linux, with support for various desktops
 #sh AUR/install-insync-v*.sh
-sh AUR/install-skypeforlinux-bin-v*.sh
+#sh AUR/install-skypeforlinux-bin-v*.sh
 #sh AUR/install-vivaldi-v*.sh
 
 

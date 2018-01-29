@@ -21,12 +21,20 @@ sudo chsh ben -s /bin/zsh
 echo "Setting Lightdm-webkit2 Wallpaper"
 sudo cp /usr/share/lightdm-webkit/themes/litarvan/images/background.jpg /usr/share/lightdm-webkit/themes/litarvan/images/background_backup.jpg
 sudo cp Personal/wallpapers/selection_001/aerial_cloud_blue_cyan_001.jpg /usr/share/lightdm-webkit/themes/litarvan/images/background.jpg
-sudo cp default_user.png /usr/share/lightdm-webkit/themes/litarvan/images/default_user.png
+#sudo cp default_user.png /usr/share/lightdm-webkit/themes/litarvan/images/default_user.png
 
 echo "Setting Slim Lock Screen Theme"
 sudo cp -r Personal/themes/slim/perso_aerial-water-dark-blue-001 /usr/share/slim/themes/
 sudo mv /etc/slim.conf /etc/slim.conf_bkp
 sudo cp Personal/themes/slim/slim.conf /etc/slim.conf
+
+echo "Install Vundle for Vim"
+git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+
+echo "Install Ho My Zsh"
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
+cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 
 echo ""
 echo "#################################################"

@@ -170,6 +170,7 @@ sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 # >>  terminal multiplexer
 sudo pacman -S --noconfirm --needed tmux
+sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler

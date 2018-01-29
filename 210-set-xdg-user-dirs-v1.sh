@@ -23,7 +23,7 @@ xdg-user-dirs-update --set PUBLICSHARE ~/Pub
 xdg-user-dirs-update --set DOCUMENTS ~/Doc
 xdg-user-dirs-update --set MUSIC ~/Zic
 xdg-user-dirs-update --set PICTURES ~/Pic
-Xdg-user-dirs-update --set VIDEOS ~/Vid
+xdg-user-dirs-update --set VIDEOS ~/Vid
 
 mkdir -p ~/Dwn
 mkdir -p ~/Tpl
@@ -33,12 +33,6 @@ mkdir -p ~/Zic
 mkdir -p ~/Pic
 mkdir -p ~/Vid
 
-rmdir ~/Documents
-rmdir ~/Download
-rmdir ~/Music
-rmdir ~/Pictures
-rmdir ~/Videos
-rmdir ~/Desktop
 
 # Additive Directories
 mkdir -p ~/git/in
