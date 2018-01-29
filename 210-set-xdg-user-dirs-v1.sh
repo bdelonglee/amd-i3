@@ -16,22 +16,22 @@ echo "#################################################"
 echo ""
 
 # XDG-USER-DIRS UPDATE
-xdg-user-dirs-update --set DESKTOP ~/dsk
-xdg-user-dirs-update --set DOWNLOAD ~/dwn
-xdg-user-dirs-update --set TEMPLATES ~/tpl
-xdg-user-dirs-update --set PUBLICSHARE ~/pub
-xdg-user-dirs-update --set DOCUMENTS ~/doc
-xdg-user-dirs-update --set MUSIC ~/zic
-xdg-user-dirs-update --set PICTURES ~/pic
-xdg-user-dirs-update --set VIDEOS ~/vid
+xdg-user-dirs-update --set DESKTOP ~/Dsk
+xdg-user-dirs-update --set DOWNLOAD ~/Dwn
+xdg-user-dirs-update --set TEMPLATES ~/Tpl
+xdg-user-dirs-update --set PUBLICSHARE ~/Pub
+xdg-user-dirs-update --set DOCUMENTS ~/Doc
+xdg-user-dirs-update --set MUSIC ~/Zic
+xdg-user-dirs-update --set PICTURES ~/Pic
+Xdg-user-dirs-update --set VIDEOS ~/Vid
 
-mkdir -p ~/dwn
-mkdir -p ~/tpl
-mkdir -p ~/pub
-mkdir -p ~/doc
-mkdir -p ~/zic
-mkdir -p ~/pic
-mkdir -p ~/vid
+mkdir -p ~/Dwn
+mkdir -p ~/Tpl
+mkdir -p ~/Pub
+mkdir -p ~/Doc
+mkdir -p ~/Zic
+mkdir -p ~/Pic
+mkdir -p ~/Vid
 
 rmdir ~/Documents
 rmdir ~/Download
