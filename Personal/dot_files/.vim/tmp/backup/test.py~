@@ -1,6 +1,0 @@
-import PhotoScan
-
-doc = PhotoScan.app.document
-
-doc.open("/home/ben/Downloads/photoscan/bloublou.psx")
-print ("HELLOR")

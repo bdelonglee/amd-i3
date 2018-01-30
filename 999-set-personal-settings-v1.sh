@@ -36,6 +36,10 @@ echo "Install Ho My Zsh"
 git clone --depth=1 https://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
 cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 
+echo "Exec Pywal"
+wal -i $HOME/git/amd-i3/Personal/wallpapers/selection_001/water_sky_dark_blue_001.png"
+
+
 echo ""
 echo "#################################################"
 echo "###### Personal Settings ########################"

@@ -1,8 +1,0 @@
-cf  = ~/.config
-cfv = ~/.vimrc
-cfi = ~/.config/i3/config
-cfz = ~/.zshrc
-cft = ~/.tmux.conf
-cfc = ~/.tcshrc
-cfb = ~/.bashrc
-cfr = ~/.config/ranger/rc.conf

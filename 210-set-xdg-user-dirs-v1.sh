@@ -16,27 +16,26 @@ echo "#################################################"
 echo ""
 
 # XDG-USER-DIRS UPDATE
-xdg-user-dirs-update --set DESKTOP ~/Dsk
-xdg-user-dirs-update --set DOWNLOAD ~/Dwn
-xdg-user-dirs-update --set TEMPLATES ~/Tpl
-xdg-user-dirs-update --set PUBLICSHARE ~/Pub
-xdg-user-dirs-update --set DOCUMENTS ~/Doc
-xdg-user-dirs-update --set MUSIC ~/Zic
-xdg-user-dirs-update --set PICTURES ~/Pic
-xdg-user-dirs-update --set VIDEOS ~/Vid
+xdg-user-dirs-update --set DESKTOP $HOME/Dsk
+xdg-user-dirs-update --set DOWNLOAD $HOME/Dwn
+xdg-user-dirs-update --set TEMPLATES $HOME/Tpl
+xdg-user-dirs-update --set PUBLICSHARE $HOME/Pub
+xdg-user-dirs-update --set DOCUMENTS $HOME/Doc
+xdg-user-dirs-update --set MUSIC $HOME/Zic
+xdg-user-dirs-update --set PICTURES $HOME/Pic
+xdg-user-dirs-update --set VIDEOS $HOME/Vid
 
-mkdir -p ~/Dwn
-mkdir -p ~/Tpl
-mkdir -p ~/Pub
-mkdir -p ~/Doc
-mkdir -p ~/Zic
-mkdir -p ~/Pic
-mkdir -p ~/Vid
-
+[ -d $HOME"/Dwn" ] || mkdir -p $HOME"/Dwn"
+[ -d $HOME"/Tpl" ] || mkdir -p $HOME"/Tpl"
+[ -d $HOME"/Pub" ] || mkdir -p $HOME"/Pub"
+[ -d $HOME"/Doc" ] || mkdir -p $HOME"/Doc"
+[ -d $HOME"/Zic" ] || mkdir -p $HOME"/Zic"
+[ -d $HOME"/Pic" ] || mkdir -p $HOME"/Pic"
+[ -d $HOME"/Vid" ] || mkdir -p $HOME"/Vid"
 
 # Additive Directories
-mkdir -p ~/git/in
-mkdir -p ~/git/out
+[ -d $HOME"/git/in" ] || mkdir -p $HOME"/git/in"
+[ -d $HOME"/git/out" ] || mkdir -p $HOME"/git/out"
 
 echo ""
 echo "#################################################"

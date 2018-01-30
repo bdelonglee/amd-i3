@@ -42,6 +42,7 @@ sudo pacman -S --noconfirm --needed atom
 #sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed python-pylint
 
 
 echo "Installing category Graphics"
