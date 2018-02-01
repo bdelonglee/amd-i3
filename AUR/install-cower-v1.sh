@@ -13,7 +13,10 @@ set -e
 #
 ##################################################################################################################
 
-package="conky-lua-archers"
+package="cower"
+
+echo "Update signature for COWER package"
+gpg --recv-keys --keyserver hkp://pgp.mit.edu 1EB2638FF56C0C53
 
 #----------------------------------------------------------------------------------
 
@@ -31,7 +34,7 @@ else
 
 		echo "Installing with yaourt"
 		yaourt -S --noconfirm $package
-
+		
 	elif pacman -Qi pacaur &> /dev/null; then
 
 		echo "Installing with pacaur"

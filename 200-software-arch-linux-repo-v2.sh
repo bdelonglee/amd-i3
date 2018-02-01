@@ -184,6 +184,8 @@ sudo pacman -S --noconfirm --needed wget
 # >>  if use Unclutter-xfixes-git >>> yaourt install
 #sudo pacman -S --noconfirm --needed unclutter
 sudo pacman -S --noconfirm --needed rxvt-unicode
+# >> clipboard utility
+sudo pacman -S --noconfirm --needed xclip
 # >>  Generate et conf Documents, Download, Pictures etc...
 sudo pacman -S --noconfirm --needed xdg-user-dirs
 # >>  Utility for performing actions on windows in X

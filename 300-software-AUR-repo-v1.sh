@@ -25,7 +25,7 @@ echo ""
 echo "-------------------------------"
 echo "Installing category Accessories"
 
-#sh AUR/install-conky-lua-archers-v*.sh
+#sh AUR/install-conky-lua-archers-git-v*.sh
 #sh AUR/install-cool-retro-term-v*.sh
 # >> Format or write images to usb-sticks (Linux Mint tool)
 sh AUR/install-mintstick-git-v*.sh
@@ -73,6 +73,8 @@ echo "Installing category System"
 sh AUR/install-arc-gtk-theme-git-v*.sh
 # >> Funky highend conky
 #sh AUR/install-conky-aureola-v*.sh
+# >> Analyse AUR update for polybar
+sh AUR/install-cower-v*.sh
 # >> Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 sh AUR/install-downgrade-v*.sh
 sh AUR/install-fasd-v*.sh

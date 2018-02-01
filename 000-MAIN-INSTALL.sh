@@ -16,17 +16,17 @@ echo ""
 echo "-------------------------------------------------"
 echo "MAIN: 010-mirror-server"
 
-#sh 090-mirror-server-v*.sh
+sh 090-mirror-server-v*.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 100-display-manager-and-desktop"
 
-#sh 100-display-manager-and-desktop-v*.sh
+sh 100-display-manager-and-desktop-v*.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 110-install-sound"
 
-#sh 110-install-sound-v*.sh
+sh 110-install-sound-v*.sh
 
 echo "-------------------------------------------------"
 #echo "MAIN: 120-bluetooth"
@@ -43,17 +43,17 @@ echo "SKIPPING MAIN: 130-install-printers"
 echo "-------------------------------------------------"
 echo "MAIN: 140-install-samba"
 
-#sh 140-install-samba-v*.sh
+sh 140-install-samba-v*.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 150-install-network-disc"
 
-#sh 150-install-network-discovery-v*.sh
+sh 150-install-network-discovery-v*.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 200-software-arch-linux-repo"
 
-#sh 200-software-arch-linux-repo-v*.sh
+sh 200-software-arch-linux-repo-v*.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 210-set-xdg-user-dirs"
