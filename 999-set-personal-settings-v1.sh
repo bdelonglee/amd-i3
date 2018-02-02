@@ -43,6 +43,8 @@ fi
 echo "Exec Pywal"
 wal -i "$HOME/git/in/amd-i3/Personal/wallpapers/selection_001/water_sky_dark_blue_001.png"
 
+echo "Symlink Powerlevel9k"
+ln -s /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme powerlevel9k.zsh-theme
 
 echo ""
 echo "#################################################"

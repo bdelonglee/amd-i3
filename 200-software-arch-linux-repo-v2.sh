@@ -195,7 +195,9 @@ sudo pacman -S --noconfirm --needed xdotool
 # >>  Utility for modifying keymaps and button mappings
 sudo pacman -S --noconfirm --needed xorg-xmodmap
 #sudo pacman -S --noconfirm --needed
-
+# ZSH OH-MY-ZSH POWERLEVEL9K need to symlink 
+# /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme powerlevel9k.zsh-theme
+sudo pacman -S --noconfirm --needed zsh-theme-powerlevel9k
 
 ###############################################################################################
 
