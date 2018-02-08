@@ -171,6 +171,8 @@ sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 # >>  terminal multiplexer
 sudo pacman -S --noconfirm --needed tmux
+# >> Flash window for i3
+sudo pacman -S --noconfirm --needed transset-df
 sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
