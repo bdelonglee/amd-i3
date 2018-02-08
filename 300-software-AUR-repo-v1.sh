@@ -95,6 +95,7 @@ sh AUR/install-ttf-mac-fonts-v*.sh
 sh AUR/install-unclutter-xfixes-git-v*.sh
 sh AUR/install-virtualbox-for-linux-kernel-v*.sh
 sh AUR/install-xcursor-breeze-v*.sh
+sh AUR/install-zsh-syntax-highlighting-git-v*.sh
 
 #Other possibilities
 #sh AUR/install-canon-mg7750-v*.sh
