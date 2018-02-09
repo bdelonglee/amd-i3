@@ -28,11 +28,6 @@ sudo cp -r Personal/themes/slim/perso_aerial-water-dark-blue-001 /usr/share/slim
 sudo mv /etc/slim.conf /etc/slim.conf_bkp
 sudo cp Personal/themes/slim/slim.conf /etc/slim.conf
 
-echo "Install Vundle for Vim"
-if [ ! -d $HOME/.vim/bundle/Vundle.vim ] ; then
-    git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim;
-fi
-
 echo "Install Ho My Zsh"
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 if [ ! -d  $HOME/.oh-my-zsh ]; then
@@ -44,7 +39,7 @@ echo "Exec Pywal"
 wal -i "$HOME/git/in/amd-i3/Personal/wallpapers/selection_001/water_sky_dark_blue_001.png"
 
 echo "Symlink Powerlevel9k"
-ln -s /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme powerlevel9k.zsh-theme
+ln -s /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme $HOME/.oh-my-zsh/themes/powerlevel9k.zsh-theme
 
 echo ""
 echo "#################################################"
