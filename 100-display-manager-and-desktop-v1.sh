@@ -64,7 +64,7 @@ echo "#################################################"
 echo ""
 
 sudo pacman -S --noconfirm --needed i3lock i3status
-sh AUR-DS/install-i3-gaps-next-*.sh
+sh AUR-DS/install-i3-gaps-next-v1.sh
 
 echo ""
 echo "#################################################"

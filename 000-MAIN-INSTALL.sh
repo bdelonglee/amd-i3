@@ -16,44 +16,44 @@ echo ""
 echo "-------------------------------------------------"
 echo "MAIN: 010-mirror-server"
 
-sh 090-mirror-server-v*.sh
+sh 090-mirror-server-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 100-display-manager-and-desktop"
 
-sh 100-display-manager-and-desktop-v*.sh
+sh 100-display-manager-and-desktop-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 110-install-sound"
 
-sh 110-install-sound-v*.sh
+sh 110-install-sound-v3.sh
 
 echo "-------------------------------------------------"
 #echo "MAIN: 120-bluetooth"
 echo "SKIPPING MAIN: 120-bluetooth"
 
-#sh 120-bluetooth-v*.sh
+#sh 120-bluetooth-v2.sh
 
 echo "-------------------------------------------------"
 #echo "MAIN: 130-install-printers"
 echo "SKIPPING MAIN: 130-install-printers"
 
-#sh 130-install-printers-v*.sh
+#sh 130-install-printers-v3.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 140-install-samba"
 
-sh 140-install-samba-v*.sh
+sh 140-install-samba-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 150-install-network-disc"
 
-sh 150-install-network-discovery-v*.sh
+sh 150-install-network-discovery-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 200-software-arch-linux-repo"
 
-sh 200-software-arch-linux-repo-v*.sh
+sh 200-software-arch-linux-repo-v2.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 210-set-xdg-user-dirs"
@@ -63,54 +63,54 @@ sh 210-set-xdg-user-dirs-v1.sh
 echo "-------------------------------------------------"
 echo "MAIN: 300-software-AUR-repo"
 
-sh 300-software-AUR-repo-v*.sh
+sh 300-software-AUR-repo-v1.sh
 
 echo "-------------------------------------------------"
 echo "MA500-software-AUR-repo-distro-specific"
 
-sh 400-software-arch-linux-repo-distro-specific-v*.sh
+sh 400-software-arch-linux-repo-distro-specific-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 500-software-AUR-repo-distro-specific"
 
-sh 500-software-AUR-repo-distro-specific-v*.sh
+sh 500-software-AUR-repo-distro-specific-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 600-software-from-ArchMerge-repo"
 
-sh 600-software-from-ArchMerge-repo-v*.sh
+sh 600-software-from-ArchMerge-repo-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 700-installing-fonts"
 
-sh 700-installing-fonts-v*.sh
+sh 700-installing-fonts-v1.sh
 
 echo "-------------------------------------------------"
 #echo "MAIN: 800-autologin"
 echo "SKIPPING MAIN: 800-autologin"
 
-#sh 800-autologin-v*.sh
+#sh 800-autologin-v3.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 900-fix-microcode-error"
 
-sh 900-fix-microcode-error-v*.sh
+sh 900-fix-microcode-error-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 910-fix-mouse-cursor-breeze-snow"
 
-sh 910-fix-mouse-cursor-breeze-snow-v*.sh
+sh 910-fix-mouse-cursor-breeze-snow-v1.sh
 
 echo "-------------------------------------------------"
 echo "MAIN: 930-fix-lock-screen"
 
-sh 930-fix-lock-screen-v*.sh
+sh 930-fix-lock-screen-v1.sh
 
 
 echo "-------------------------------------------------"
 echo "MAIN: 999-Set-Personal-Settings"
 
-sh 999-set-personal-settings-v1*.sh
+sh 999-set-personal-settings-v1.sh
 
 echo ""
 echo "#################################################"

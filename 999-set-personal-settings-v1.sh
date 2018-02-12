@@ -41,6 +41,14 @@ wal -i "$HOME/git/in/amd-i3/Personal/wallpapers/selection_001/water_sky_dark_blu
 echo "Symlink Powerlevel9k"
 ln -s /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme $HOME/.oh-my-zsh/themes/powerlevel9k.zsh-theme
 
+echo "Install Dotfiles-git"
+echo ">>> git clone repo  "
+mkdir -p $HOME/git/in/
+git clone https://github.com/bdelonglee/Dotfiles $HOME/git/in/
+
+echo ">>> Exec files      "
+sh $HOME/git/in/Dotfiles/io/o_ALL.sh
+
 echo ""
 echo "#################################################"
 echo "###### Personal Settings ########################"
