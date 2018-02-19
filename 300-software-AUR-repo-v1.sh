@@ -74,7 +74,7 @@ sh AUR/install-arc-gtk-theme-git-v1.sh
 # >> Funky highend conky
 #sh AUR/install-conky-aureola-v1.sh
 # >> Analyse AUR update for polybar
-sh AUR/install-cower-v1.sh
+#sh AUR/install-cower-v1.sh
 # >> Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 sh AUR/install-downgrade-v1.sh
 sh AUR/install-fasd-v1.sh

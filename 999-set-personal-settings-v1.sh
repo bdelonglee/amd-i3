@@ -44,7 +44,7 @@ ln -s /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme $HOME/.oh-my-zsh/
 echo "Install Dotfiles-git"
 echo ">>> git clone repo  "
 mkdir -p $HOME/git/in/
-git clone https://github.com/bdelonglee/Dotfiles $HOME/git/in/
+git clone https://github.com/bdelonglee/Dotfiles $HOME/git/in/Dotfiles
 
 echo ">>> Exec files      "
 sh $HOME/git/in/Dotfiles/io/o_ALL.sh

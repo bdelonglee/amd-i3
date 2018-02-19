@@ -26,7 +26,7 @@ sh 100-display-manager-and-desktop-v1.sh
 echo "-------------------------------------------------"
 echo "MAIN: 110-install-sound"
 
-sh 110-install-sound-v3.sh
+#sh 110-install-sound-v3.sh
 
 echo "-------------------------------------------------"
 #echo "MAIN: 120-bluetooth"

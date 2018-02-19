@@ -48,6 +48,7 @@ echo "Installing category System"
 sudo pacman -S --noconfirm --needed arandr 
 sudo pacman -S --noconfirm --needed awesome-terminal-fonts
 sudo pacman -S --noconfirm --needed compton
+sudo pacman -S --noconfirm --needed ctags
 sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed feh
 sudo pacman -S --noconfirm --needed gpicview
