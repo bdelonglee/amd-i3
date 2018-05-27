@@ -16,7 +16,7 @@ echo ""
 
 
 echo "Changing Shell to ZSH"
-sudo chsh ben -s /bin/zsh
+sudo chsh alkos -s /bin/zsh
 
 echo "Setting Lightdm-webkit2 Wallpaper"
 sudo cp /usr/share/lightdm-webkit/themes/litarvan/images/background.jpg /usr/share/lightdm-webkit/themes/litarvan/images/background_backup.jpg

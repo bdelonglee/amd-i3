@@ -14,7 +14,12 @@ echo "#################################################"
 echo ""
 
 echo "-------------------------------------------------"
-echo "MAIN: 010-mirror-server"
+echo "MAIN: 050-use-all-cores"
+
+sh 050-use-all-cores-makepkg-conf-v1.sh
+
+echo "-------------------------------------------------"
+echo "MAIN: 090-mirror-server"
 
 sh 090-mirror-server-v1.sh
 

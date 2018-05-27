@@ -106,7 +106,7 @@ sudo pacman -S --noconfirm --needed evince
 echo "Installing category System"
 
 # >>  neofetch like (python)
-sudo pacman -S --noconfirm --needed archey3
+#sudo pacman -S --noconfirm --needed archey3
 # >>  Disk analizer (space etc...)
 sudo pacman -S --noconfirm --needed baobab
 # >>  permet de libérer de l'espace disque et de protéger la vie privée en effaçant les fichiers inutiles et temporaires du système
@@ -123,6 +123,7 @@ sudo pacman -S --noconfirm --needed glances
 # >>  Disk diagnostic
 #sudo pacman -S --noconfirm --needed gnome-disk-utility
 #sudo pacman -S --noconfirm --needed gnome-system-monitor
+sudo pacman -S --noconfirm --needed gnome-screenshot
 #sudo pacman -S --noconfirm --needed gnome-terminal
 #sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gparted
@@ -137,7 +138,7 @@ sudo pacman -S --noconfirm --needed hardinfo
 #sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed htop
 # >>  inxi is a full featured CLI system information tool.
-sudo pacman -S --noconfirm --needed inxi
+#sudo pacman -S --noconfirm --needed inxi
 #sudo pacman -S --noconfirm --needed lm_sensors
 # >>  system infos: distro version etc...
 sudo pacman -S --noconfirm --needed lsb-release
